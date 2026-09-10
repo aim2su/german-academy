@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 140" width="540" height="140">
+  
+  <rect x="8" y="28" width="46" height="36" rx="2" fill="#CC0000"></rect>
+  <rect x="8" y="40" width="46" height="12" fill="#FFFFFF"></rect>
+  <rect x="8" y="52" width="46" height="12" fill="#006600"></rect>
+  
+  
+  <rect x="8" y="72" width="46" height="36" rx="2" fill="#000000"></rect>
+  <rect x="8" y="84" width="46" height="12" fill="#DD0000"></rect>
+  <rect x="8" y="96" width="46" height="12" fill="#FFCC00"></rect>
+  
+  
+  <text x="72" y="68" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-size="38" font-weight="600" letter-spacing="1" fill="#1A365D">
+    Tojikon
+  </text>
+  
+  <text x="72" y="108" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-size="28" font-weight="400" letter-spacing="5.5" fill="#1A365D">
+    OLMON
+  </text>
+</svg>
