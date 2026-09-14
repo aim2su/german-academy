@@ -145,7 +145,7 @@ export default function LevelTestPage() {
               <Card className="text-center">
                 <ListChecks size={24} className="mx-auto mb-3 text-brand-600" />
                 <div className="font-semibold">10 вопросов</div>
-                <div className="mt-1 text-sm text-ink-500">От A1 до B1</div>
+                <div className="mt-1 text-sm text-ink-500">Грамматика и словарный запас</div>
               </Card>
               <Card className="text-center">
                 <Clock size={24} className="mx-auto mb-3 text-brand-600" />

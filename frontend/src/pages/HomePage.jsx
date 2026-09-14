@@ -21,14 +21,14 @@ import Card from "../components/ui/Card";
 import Badge from "../components/ui/Badge";
 import Accordion from "../components/ui/Accordion";
 
-import { courses, formats } from "../data/courses";
+import { courseProgram, formats } from "../data/courses";
 import { steps } from "../data/steps";
 import { faq } from "../data/faq";
 import { testimonials } from "../data/testimonials";
 
 export default function HomePage() {
   usePageTitle("Немецкий от A1 до C1 и Ausbildung в Германии");
-  const previewCourses = courses.slice(0, 3);
+ // const previewCourses = courses.slice(0, 3);
 
   return (
     <>
@@ -190,51 +190,79 @@ export default function HomePage() {
         </div>
       </Section>
 
-      <Section className="bg-ink-50/50">
-        <div className="flex flex-col items-start justify-between gap-6 sm:flex-row sm:items-end">
-          <div className="max-w-2xl">
-            <Badge className="mb-4">Курсы</Badge>
-            <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
-              Программа от A1 до C1
-            </h2>
-            <p className="mt-4 text-base text-ink-700 sm:text-lg">
-              Каждый уровень — отдельный блок с понятной длительностью и
-              результатом.
-            </p>
-          </div>
-          <Button as={Link} to="/courses" variant="outline">
-            Все курсы
-            <ArrowRight size={16} />
-          </Button>
-        </div>
+      {/* ============ КУРСЫ (превью) ============ */}
+<Section className="bg-ink-50/50">
+  <div className="flex flex-col items-start justify-between gap-6 sm:flex-row sm:items-end">
+    <div className="max-w-2xl">
+      <Badge className="mb-4">Курсы</Badge>
+      <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
+        Программа от A1.1 до C1.2
+      </h2>
+      <p className="mt-4 text-base text-ink-700 sm:text-lg">
+        10 уровней по 2 месяца. Мини-группы до 6 человек. Онлайн или офлайн.
+      </p>
+    </div>
+    <Button as={Link} to="/courses" variant="outline">
+      Все курсы
+      <ArrowRight size={16} />
+    </Button>
+  </div>
 
-        <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {previewCourses.map((course) => (
-            <Card key={course.id} className="flex flex-col">
-              <div className="mb-4 flex items-center justify-between">
-                <span className="text-2xl font-extrabold text-brand-600">
-                  {course.level}
-                </span>
-                <Badge>{course.duration}</Badge>
-              </div>
-              <h3 className="mb-2 text-lg font-semibold">{course.title}</h3>
-              <p className="mb-5 flex-1 text-sm leading-relaxed text-ink-700">
-                {course.description}
-              </p>
-              <div className="flex flex-wrap gap-2">
-                {course.format.map((f) => (
-                  <span
-                    key={f}
-                    className="rounded-full bg-ink-100 px-2.5 py-1 text-xs font-medium text-ink-700"
-                  >
-                    {f}
-                  </span>
-                ))}
-              </div>
-            </Card>
-          ))}
+  <div className="mx-auto mt-12 max-w-4xl">
+    <Card className="p-6 sm:p-8">
+      <div className="mb-6 flex flex-wrap items-center gap-2">
+        {courseProgram.levels.map((level) => (
+          <span
+            key={level}
+            className="inline-flex items-center rounded-lg bg-brand-50 px-3 py-1.5 text-sm font-bold text-brand-700"
+          >
+            {level}
+          </span>
+        ))}
+      </div>
+
+      <p className="mb-6 text-base leading-relaxed text-ink-700">
+        {courseProgram.description}
+      </p>
+
+      <div className="mb-6 grid gap-4 sm:grid-cols-3">
+        <div className="rounded-xl bg-ink-50 px-4 py-3 text-center">
+          <Clock size={20} className="mx-auto mb-2 text-brand-600" />
+          <div className="text-sm font-semibold">
+            {courseProgram.duration}
+          </div>
         </div>
-      </Section>
+        <div className="rounded-xl bg-ink-50 px-4 py-3 text-center">
+          <Users size={20} className="mx-auto mb-2 text-brand-600" />
+          <div className="text-sm font-semibold">
+            Группы {courseProgram.groupSize}
+          </div>
+        </div>
+        <div className="rounded-xl bg-ink-50 px-4 py-3 text-center">
+          <Globe size={20} className="mx-auto mb-2 text-brand-600" />
+          <div className="text-sm font-semibold">Онлайн и офлайн</div>
+        </div>
+      </div>
+
+      <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1 border-t border-ink-100 pt-6">
+        <span className="text-3xl font-extrabold text-ink-900">
+          {courseProgram.price} смн
+        </span>
+        <span className="text-base text-ink-500 line-through">
+          {courseProgram.oldPrice} смн
+        </span>
+        <span className="rounded-full bg-red-100 px-2.5 py-1 text-xs font-bold text-red-700">
+          −{Math.round((1 - courseProgram.price / courseProgram.oldPrice) * 100)}%
+        </span>
+        <span className="ml-auto text-sm text-ink-500">
+          за уровень · 2 месяца
+        </span>
+      </div>
+    </Card>
+  </div>
+</Section>
+
+
 
       <Section>
         <div className="mx-auto max-w-3xl text-center">

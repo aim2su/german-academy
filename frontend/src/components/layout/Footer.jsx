@@ -102,14 +102,20 @@ export default function Footer() {
         </Container>
       </div>
 
-      <div className="border-t border-white/10">
-        <Container className="flex flex-col items-center justify-between gap-2 py-6 text-xs text-white/60 sm:flex-row">
-          <span>
-            © {new Date().getFullYear()} Tojikon Olmon. Все права защищены.
-          </span>
-          <span>Душанбе, Таджикистан</span>
-        </Container>
-      </div>
+        <div className="border-t border-white/10">
+          <Container className="flex flex-col items-center justify-between gap-3 py-6 text-xs text-white/60 sm:flex-row">
+            <span>
+              © {new Date().getFullYear()} Tojikon Olmon. Все права защищены.
+            </span>
+            <div className="flex items-center gap-4">
+              <Link to="/privacy" className="transition-colors hover:text-brand-400">
+                Политика конфиденциальности
+              </Link>
+              <span className="hidden sm:inline">·</span>
+              <span>Душанбе, Таджикистан</span>
+            </div>
+          </Container>
+        </div>
     </footer>
   );
 }

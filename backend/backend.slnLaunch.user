@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "Новый профиль",
+    "Projects": [
+      {
+        "Path": "Academy.Api\\Academy.Api.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Academy.Bot\\Academy.Bot.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

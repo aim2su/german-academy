@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Academy.Api/Academy.Api.csproj" />
+  <Project Path="Academy.Bot/Academy.Bot.csproj" Id="ea816e6b-170d-49eb-a730-24379b40706c" />
+</Solution>

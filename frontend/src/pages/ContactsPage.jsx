@@ -5,11 +5,12 @@ import Card from "../components/ui/Card";
 import Badge from "../components/ui/Badge";
 import LeadForm from "../components/ui/LeadForm";
 import usePageTitle from "../hooks/usePageTitle";
+import MapView from "../components/ui/MapView";
 
 import { contacts } from "../data/contacts";
 
 export default function ContactsPage() {
-  usePageTitle("Немецкий от A1 до C1 и Ausbildung в Германии");
+  usePageTitle("Контакты");
   const contactItems = [
     {
       icon: Phone,
@@ -108,26 +109,6 @@ export default function ContactsPage() {
                 </li>
               ))}
             </ul>
-
-            {/* <h3 className="mt-10 mb-4 text-lg font-semibold">
-              Мы в мессенджерах
-            </h3>
-            <div className="flex flex-wrap gap-3">
-              {messengers.map((m) => (
-                <a
-                  key={m.label}
-                  href={m.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className={`inline-flex items-center gap-2 rounded-full px-5 py-2.5 text-sm font-semibold text-white transition-colors ${m.color}`}
-                >
-                  <m.icon size={16} />
-                  {m.label}
-                </a>
-              ))}
-            </div> */}
-          
-
           <h3 className="mt-10 mb-4 text-lg font-semibold">
             Мы в мессенджерах
           </h3>
@@ -176,15 +157,39 @@ export default function ContactsPage() {
           </p>
         </div>
 
-        <div className="mt-10 overflow-hidden rounded-3xl border border-ink-100 shadow-sm">
-          <iframe
-            title="Tojikon Olmon на карте"
-            src={contacts.mapEmbed}
-            className="h-80 w-full sm:h-96"
-            loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
-          />
-        </div>
+        <div className="mx-auto mt-10 max-w-4xl overflow-hidden rounded-3xl border border-ink-100 bg-white shadow-sm">
+  <img
+    src="/images/classroom.webp"
+    alt="Аудитория Tojikon Olmon в Душанбе"
+    className="aspect-[3/2] w-full object-cover"
+  />
+
+  <div className="p-8 text-center">
+    <h3 className="mb-2 text-lg font-semibold">Tojikon Olmon</h3>
+    <p className="mb-6 text-sm text-ink-700">{contacts.address}</p>
+
+    <div className="flex flex-col justify-center gap-3 sm:flex-row">
+      <a
+        href="https://yandex.com/maps/?text=38.564021,68.810385"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-flex items-center justify-center gap-2 rounded-full bg-brand-600 px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-brand-700"
+      >
+        Открыть в Яндекс.Картах
+      </a>
+      <a
+        href="https://www.google.com/maps/search/?api=1&query=38.564021,68.810385"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-flex items-center justify-center gap-2 rounded-full border border-ink-200 px-5 py-2.5 text-sm font-semibold text-ink-900 transition-colors hover:bg-ink-50"
+      >
+        Открыть в Google Maps
+      </a>
+    </div>
+  </div>
+</div>
+
+
       </Section>
     </>
   );

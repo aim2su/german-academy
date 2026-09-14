@@ -1,0 +1,151 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\valij\\Projects\\tojikon-olmon\\backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4E968085-60F7-A87C-34F2-D9FE434A29F3}|Academy.Api\\Academy.Api.csproj|c:\\users\\valij\\projects\\tojikon-olmon\\backend\\academy.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E968085-60F7-A87C-34F2-D9FE434A29F3}|Academy.Api\\Academy.Api.csproj|solutionrelative:academy.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E968085-60F7-A87C-34F2-D9FE434A29F3}|Academy.Api\\Academy.Api.csproj|c:\\users\\valij\\projects\\tojikon-olmon\\backend\\academy.api\\controllers\\leadscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E968085-60F7-A87C-34F2-D9FE434A29F3}|Academy.Api\\Academy.Api.csproj|solutionrelative:academy.api\\controllers\\leadscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E968085-60F7-A87C-34F2-D9FE434A29F3}|Academy.Api\\Academy.Api.csproj|c:\\users\\valij\\projects\\tojikon-olmon\\backend\\academy.api\\models\\lead.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E968085-60F7-A87C-34F2-D9FE434A29F3}|Academy.Api\\Academy.Api.csproj|solutionrelative:academy.api\\models\\lead.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA816E6B-170D-49EB-A730-24379B40706C}|Academy.Bot\\Academy.Bot.csproj|c:\\users\\valij\\projects\\tojikon-olmon\\backend\\academy.bot\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EA816E6B-170D-49EB-A730-24379B40706C}|Academy.Bot\\Academy.Bot.csproj|solutionrelative:academy.bot\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA816E6B-170D-49EB-A730-24379B40706C}|Academy.Bot\\Academy.Bot.csproj|c:\\users\\valij\\projects\\tojikon-olmon\\backend\\academy.bot\\services\\telegramnotifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA816E6B-170D-49EB-A730-24379B40706C}|Academy.Bot\\Academy.Bot.csproj|solutionrelative:academy.bot\\services\\telegramnotifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA816E6B-170D-49EB-A730-24379B40706C}|Academy.Bot\\Academy.Bot.csproj|c:\\users\\valij\\projects\\tojikon-olmon\\backend\\academy.bot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA816E6B-170D-49EB-A730-24379B40706C}|Academy.Bot\\Academy.Bot.csproj|solutionrelative:academy.bot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LeadsController.cs",
+              "DocumentMoniker": "C:\\Users\\valij\\Projects\\tojikon-olmon\\backend\\Academy.Api\\Controllers\\LeadsController.cs",
+              "RelativeDocumentMoniker": "Academy.Api\\Controllers\\LeadsController.cs",
+              "ToolTip": "C:\\Users\\valij\\Projects\\tojikon-olmon\\backend\\Academy.Api\\Controllers\\LeadsController.cs",
+              "RelativeToolTip": "Academy.Api\\Controllers\\LeadsController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAxwBMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-13T17:52:43.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:6:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:7:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\valij\\Projects\\tojikon-olmon\\backend\\Academy.Api\\Program.cs",
+              "RelativeDocumentMoniker": "Academy.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\valij\\Projects\\tojikon-olmon\\backend\\Academy.Api\\Program.cs",
+              "RelativeToolTip": "Academy.Api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-13T17:50:48.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Lead.cs",
+              "DocumentMoniker": "C:\\Users\\valij\\Projects\\tojikon-olmon\\backend\\Academy.Api\\Models\\Lead.cs",
+              "RelativeDocumentMoniker": "Academy.Api\\Models\\Lead.cs",
+              "ToolTip": "C:\\Users\\valij\\Projects\\tojikon-olmon\\backend\\Academy.Api\\Models\\Lead.cs",
+              "RelativeToolTip": "Academy.Api\\Models\\Lead.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-13T11:44:17.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TelegramNotifier.cs",
+              "DocumentMoniker": "C:\\Users\\valij\\Projects\\tojikon-olmon\\backend\\Academy.Bot\\Services\\TelegramNotifier.cs",
+              "RelativeDocumentMoniker": "Academy.Bot\\Services\\TelegramNotifier.cs",
+              "ToolTip": "C:\\Users\\valij\\Projects\\tojikon-olmon\\backend\\Academy.Bot\\Services\\TelegramNotifier.cs",
+              "RelativeToolTip": "Academy.Bot\\Services\\TelegramNotifier.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAhwFwAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-13T11:19:14.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\valij\\Projects\\tojikon-olmon\\backend\\Academy.Bot\\appsettings.json",
+              "RelativeDocumentMoniker": "Academy.Bot\\appsettings.json",
+              "ToolTip": "C:\\Users\\valij\\Projects\\tojikon-olmon\\backend\\Academy.Bot\\appsettings.json",
+              "RelativeToolTip": "Academy.Bot\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-09-13T11:17:13.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\valij\\Projects\\tojikon-olmon\\backend\\Academy.Bot\\Program.cs",
+              "RelativeDocumentMoniker": "Academy.Bot\\Program.cs",
+              "ToolTip": "C:\\Users\\valij\\Projects\\tojikon-olmon\\backend\\Academy.Bot\\Program.cs",
+              "RelativeToolTip": "Academy.Bot\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-13T09:59:39.939Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
